@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--seasalt); /* Use seasalt variable for background */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* CSS HEX */
+:root {
+  --seasalt: #f8f9faff;
+  --antiflash-white: #e9ecefff;
+  --platinum: #dee2e6ff;
+  --french-gray: #ced4daff;
+  --french-gray-2: #adb5bdff;
+  --slate-gray: #6c757dff;
+  --outer-space: #495057ff;
+  --onyx: #343a40ff;
+  --eerie-black: #212529ff;
+}
+
+/* CSS HSL (optional - you can keep HEX or HSL) */
+/* :root {
+  --seasalt: hsla(210, 17%, 98%, 1);
+  --antiflash-white: hsla(210, 16%, 93%, 1);
+  --platinum: hsla(210, 14%, 89%, 1);
+  --french-gray: hsla(210, 14%, 83%, 1);
+  --french-gray-2: hsla(210, 11%, 71%, 1);
+  --slate-gray: hsla(208, 7%, 46%, 1);
+  --outer-space: hsla(210, 9%, 31%, 1);
+  --onyx: hsla(210, 10%, 23%, 1);
+  --eerie-black: hsla(210, 11%, 15%, 1);
+}
+*/
